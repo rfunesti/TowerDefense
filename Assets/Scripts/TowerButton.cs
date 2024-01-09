@@ -20,7 +20,7 @@ namespace TowerDefense
 
         private void OnClick()
         {
-            Debug.Log("I'm a button and I've been clicked!");
+            //Debug.Log("I'm a button and I've been clicked!");
             player.towerPrefab = towerPrefab;
         }
 

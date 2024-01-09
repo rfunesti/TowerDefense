@@ -10,14 +10,14 @@ public class UICursorCapture : MonoBehaviour, IPointerEnterHandler, IPointerExit
     // Must implement for IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Pointer Enter");
+        //Debug.Log("Pointer Enter");
         cursorOverUI = true;
     }
 
     // Must implement for IPointerExitHandler
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("Pointer Exit");
+        //Debug.Log("Pointer Exit");
         cursorOverUI = false;
     }
 }
