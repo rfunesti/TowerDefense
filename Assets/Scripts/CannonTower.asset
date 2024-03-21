@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fd72d1d160eca459c8ab9f9f60e666, type: 3}
   m_Name: CannonTower
   m_EditorClassIdentifier: 
-  fireRate: 3
-  damage: 5
+  fireRate: 2
+  damage: 2
+  cost: 1
