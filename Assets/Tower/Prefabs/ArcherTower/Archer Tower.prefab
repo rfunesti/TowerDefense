@@ -100,7 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesInRange: []
+  cost: {fileID: 0}
   towerType: {fileID: 11400000, guid: c47c9f7c78e411e45b2db2e6161d9e0b, type: 2}
+  towerArcherCost: 2
+  towerCannonCost: 7
   enemyTarget: {fileID: 0}
 --- !u!1 &4243756555966420487
 GameObject:

@@ -15,7 +15,10 @@ namespace TowerDefense
         {
             // Find path
             path = FindObjectOfType<Path>();
-            StartCoroutine(FollowPath());
+            // we use a Coroutine instead of Update()
+            // it spreads out the execution of that method
+            // across several frames in sequential order.
+            StartCoroutine(FollowPath());  
         }
 
         IEnumerator FollowPath()
@@ -24,15 +27,18 @@ namespace TowerDefense
             while (path.TryGetPoint(index, out target))
             {
                 Vector3 start = transform.position;
-
+                // Mathf.Min returns the smaller of two or more values
+                // Finds out the maxDistance to move in a single move 
+                // we won't overshoot our target this way
                 float maxDistance = Mathf.Min(speed * Time.deltaTime, (target - start).magnitude);
                 transform.position = Vector3.MoveTowards(start, target, maxDistance);
 
                 // Rotate towards next point
-                transform.rotation = Quaternion.Lerp(transform.rotation,
-                Quaternion.LookRotation(target - start), 0.05f);
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target - start), 0.05f);
 
                 if (transform.position == target) index++;
+                // we need the yield for coroutines; it will wait until
+                // the next frame and start at the top of the loop
                 yield return null;
             }
             // Damage player at the end of the path

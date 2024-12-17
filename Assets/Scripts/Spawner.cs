@@ -18,6 +18,7 @@ public class Spawner : MonoBehaviour
         while (spawn)
         {
             Instantiate(prefab, transform.position, transform.rotation);
+            // allows a delay for the coroutine
             yield return new WaitForSeconds(spawnRate);
         }
     }

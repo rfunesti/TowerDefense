@@ -22,6 +22,7 @@ namespace TowerDefense
             gameObjects.Add(tileCoordinates, gameObject);
             return true;
         }
+        //Remove() is not currently being used in this version of the project per Torben
         public void Remove(Vector3Int tileCoordinates)
         {
             if (!gameObjects.ContainsKey(tileCoordinates))
@@ -29,20 +30,24 @@ namespace TowerDefense
                 return;
             }
                 Destroy(gameObjects[tileCoordinates]);
+
+                //remove from Dictionary using Vector3Int key tileCoordinates
                 gameObjects.Remove(tileCoordinates);
         }
 
         public static Vector3Int WorldToGrid(Vector3 worldPosition)
         {
+            //Debug.Log($"World Position {worldPosition}");
             return new Vector3Int(
                 Mathf.RoundToInt(worldPosition.x),
                 Mathf.RoundToInt(worldPosition.y),
                 Mathf.RoundToInt(worldPosition.z)
             );
         }
-
+        
         public static Vector3 GridToWorld(Vector3Int gridPosition)
-        {
+        {           
+            //Debug.Log($"Grid Position {gridPosition}");
             return gridPosition;
         }
     }
