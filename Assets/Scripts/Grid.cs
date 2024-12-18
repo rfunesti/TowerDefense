@@ -29,10 +29,10 @@ namespace TowerDefense
             {
                 return;
             }
-                Destroy(gameObjects[tileCoordinates]);
+            Destroy(gameObjects[tileCoordinates]);
 
-                //remove from Dictionary using Vector3Int key tileCoordinates
-                gameObjects.Remove(tileCoordinates);
+            //remove from Dictionary using Vector3Int key tileCoordinates
+             gameObjects.Remove(tileCoordinates);
         }
 
         public static Vector3Int WorldToGrid(Vector3 worldPosition)
