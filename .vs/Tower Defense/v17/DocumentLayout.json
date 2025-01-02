@@ -3,15 +3,43 @@
   "WorkspaceRootPath": "C:\\Unity\\Tower Defense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|c:\\unity\\tower defense\\assets\\scripts\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|c:\\unity\\tower defense\\assets\\scripts\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|c:\\unity\\tower defense\\assets\\scripts\\towercost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towercost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\valuedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\valuedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\tower_so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower_so.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\towerbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towerbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|c:\\unity\\tower defense\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|C:\\Unity\\Tower Defense\\assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689D9C60-2577-4B28-C05E-EFF5B7059F6B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,37 +50,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Path.cs",
-              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Path.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Path.cs",
-              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Path.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Path.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "TowerCost.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\TowerCost.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TowerCost.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\TowerCost.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TowerCost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T19:03:46.253Z",
+              "WhenOpened": "2024-12-20T16:07:07.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndGame.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\EndGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndGame.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\EndGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:36:59.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:36:43.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tower.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Tower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Tower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:36:32.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tower_SO.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Tower_SO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower_SO.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Tower_SO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower_SO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:35:24.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValueDisplay.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\ValueDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ValueDisplay.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\ValueDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ValueDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:58:43.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TowerButton.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\TowerButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TowerButton.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\TowerButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TowerButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:34:56.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Path.cs",
+              "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Path.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Path.cs",
+              "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Path.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Path.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:03:46.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Grid.cs",
               "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Grid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grid.cs",
               "ToolTip": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Grid.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grid.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCUAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:56:15.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T18:56:15.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Unity\\Tower Defense\\Assets\\Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner.cs",
@@ -60,8 +173,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Spawner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:23:58.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T17:23:58.181Z"
             }
           ]
         }

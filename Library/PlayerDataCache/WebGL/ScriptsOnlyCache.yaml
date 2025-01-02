@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameManager
     - Health
     - Spawner
+    - TowerCost
+    - TowerDefence.EndGame
     - TowerDefense.Cursor
     - TowerDefense.Enemy
     - TowerDefense.FollowTowerTarget
@@ -48,7 +51,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: TowerDefence.EndGame
+    methodName: CompleteObjective
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Quit
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -66,6 +75,8 @@ ScriptsOnlyBuild:
     - Class: 33
       Script: {instanceID: 0}
     - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -88,45 +99,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1556}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1832}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2312}
+      Script: {instanceID: 2104}
     - Class: 114
-      Script: {instanceID: 2418}
+      Script: {instanceID: 2268}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 2630}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3712}
+      Script: {instanceID: 2954}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 4324}
+      Script: {instanceID: 4166}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 4178}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5492}
+      Script: {instanceID: 5054}
     - Class: 114
-      Script: {instanceID: 5502}
+      Script: {instanceID: 5276}
     - Class: 114
-      Script: {instanceID: 5960}
+      Script: {instanceID: 5286}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 6570}
+      Script: {instanceID: 5712}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5776}
+    - Class: 114
+      Script: {instanceID: 6304}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,6 +239,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 6cebfbcb200824d889197b2ef3b345d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TowerDefence
+    className: EndGame
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -764,6 +787,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 3e8050cd4994799e1eb997393c9c398e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TowerCost
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -798,6 +827,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

@@ -331,6 +331,7 @@
 "Assets/Scripts/Spawner.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/TowerButton.cs"
+"Assets/Scripts/TowerCost.cs"
 "Assets/Scripts/Tower_SO.cs"
 "Assets/Scripts/UICursorCapture.cs"
 "Assets/Scripts/ValueDisplay.cs"

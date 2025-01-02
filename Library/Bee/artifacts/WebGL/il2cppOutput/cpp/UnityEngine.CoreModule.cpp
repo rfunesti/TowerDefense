@@ -2597,6 +2597,11 @@ struct SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E  : public R
 {
 };
 
+// UnityEngine.Skybox
+struct Skybox_tB3C6FDB5DCB4633B155B7A80045542B7C3388441  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
 // <Module>
 
 // <Module>
@@ -3601,6 +3606,10 @@ struct ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_StaticFields
 // UnityEngine.SkinnedMeshRenderer
 
 // UnityEngine.SkinnedMeshRenderer
+
+// UnityEngine.Skybox
+
+// UnityEngine.Skybox
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -15030,6 +15039,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_get_bakingOutput_Injected_m587C601
 	_il2cpp_icall_func = (Light_get_bakingOutput_Injected_m587C60162C878716DF9310258756C2F587E35185_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Light::get_bakingOutput_Injected(UnityEngine.LightBakingOutput&)");
 	_il2cpp_icall_func(__this, ___0_ret);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

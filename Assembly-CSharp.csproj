@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\UICursorCapture.cs" />
     <Compile Include="Assets\Scripts\Tower_SO.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\TowerCost.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\FollowTowerTarget.cs" />

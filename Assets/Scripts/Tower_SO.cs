@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 
 namespace TowerDefense
 {
@@ -10,6 +9,7 @@ namespace TowerDefense
         public float fireRate = 1f;
         public int damage = 1;
         public int cost = 1;
+       
 
         public static int GetCost(GameObject gameObject)
         {

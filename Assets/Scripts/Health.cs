@@ -30,6 +30,4 @@ public class Health : MonoBehaviour
 
         if (health) health.TakeDamage(damageAmount);
     }
-
-
 }
