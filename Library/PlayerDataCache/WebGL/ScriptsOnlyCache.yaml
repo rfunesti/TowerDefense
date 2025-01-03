@@ -1040,4 +1040,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Unity/Builds/Tower Defence Build
+  playerPath: C:/Unity/Tower Defense/Builds
