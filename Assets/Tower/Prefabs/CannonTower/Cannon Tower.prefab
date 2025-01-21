@@ -419,7 +419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3551147325798900281, guid: 9a0f54863b87b3143b345ecfa8f74d44, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6138355292310233512, guid: 9a0f54863b87b3143b345ecfa8f74d44, type: 3}
       propertyPath: moveWithTransform
@@ -501,7 +501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3530932111515771478, guid: de066df882deccf4b8316ce55999b844, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4498622126284637072, guid: de066df882deccf4b8316ce55999b844, type: 3}
       propertyPath: m_RootOrder
