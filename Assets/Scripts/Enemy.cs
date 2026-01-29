@@ -34,6 +34,13 @@ namespace TowerDefense
                 transform.position = Vector3.MoveTowards(start, target, maxDistance);
 
                 // Rotate towards next point
+
+                //Lerp (Linear Interpolation) is a programming and math function that finds a
+                //point between two values (A and B) based on a factor (t) from 0 to 1,
+                //creating smooth transitions for movement, color changes, or animations
+                //in applications like game development and graphics, often expressed as A + (B - A) * t.
+                //It's widely used to smoothly move objects, blend colors, or control UI elements over
+                //time in games.
                 transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(target - start), 0.05f);
 
                 if (transform.position == target) index++;

@@ -10,11 +10,17 @@ namespace TowerDefense
         Vector3Int GetTargetTile()
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
+            RaycastHit hit;            
             if (Physics.Raycast(ray, out hit))
-            {
+            {                
                 Vector3Int targetTile;
                 targetTile = Grid.WorldToGrid(hit.point + hit.normal * 0.5f);
+                if (targetTile.x == 12)
+                {
+                    targetTile.x -= 1;
+                    targetTile.y = 1;
+                }
+                //Debug.Log($"Target Tile: {targetTile}");
                 return targetTile;
             }
             return Vector3Int.one;

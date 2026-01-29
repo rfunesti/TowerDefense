@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CannonTower
   m_EditorClassIdentifier: 
   fireRate: 1
-  damage: 2
-  cost: 5
+  damage: 5
+  cost: 2

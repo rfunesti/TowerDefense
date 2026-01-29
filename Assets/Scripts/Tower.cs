@@ -51,9 +51,7 @@ namespace TowerDefense
                 {
                     enemyTarget = enemiesInRange[0];
                     animator.SetTrigger("Fire");
-                }
-
-                
+                }              
 
                 yield return new WaitForSeconds(towerType.fireRate);
             }

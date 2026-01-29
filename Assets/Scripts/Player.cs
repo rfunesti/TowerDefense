@@ -22,12 +22,6 @@ namespace TowerDefense
             cursor = GetComponentInChildren<Cursor>();
         }
 
-        private void OnClick()
-        {
-            Debug.Log("I'm a button and I've been clicked!");
-            player.towerPrefab = towerPrefab;
-        }
-
         private void Update()
         {
             if (Input.GetMouseButtonDown(0) && !cursorCapture.cursorOverUI)
@@ -52,7 +46,7 @@ namespace TowerDefense
             gold -= Tower_SO.GetCost(towerPrefab);
             ValueDisplay.OnValueChanged.Invoke("PlayerGold", gold);
             return true;
-        }
+        }        
     }
 }
 
