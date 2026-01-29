@@ -222,3 +222,9 @@ Start importing Assets/Enemy/Enemy Assets/Prefabs/Enemy.prefab using Guid(c199e3
  -> (artifact id: 'ff67f959b289ad003834cb5aecaa2ab1') in 0.016571 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 37
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

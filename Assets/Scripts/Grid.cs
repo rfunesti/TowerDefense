@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
+
 
 // The Grid class in the TowerDefense namespace will manage and store data
 // for all of the units or buildings currently occupying tiles.
 // To implement this we will use a Dictionary to store this data.
 
-namespace TowerDefense{
+namespace TowerDefense
+{
     public class Grid : MonoBehaviour
     {
         private Dictionary<Vector3Int, GameObject> gameObjects = new Dictionary<Vector3Int, GameObject>();

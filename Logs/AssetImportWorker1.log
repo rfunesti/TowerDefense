@@ -303,3 +303,9 @@ Start importing Assets/Tower/Prefabs/GoldTower/Gold Tower.prefab using Guid(80ab
  -> (artifact id: 'be5345362467bd116e2ec604cbff74b6') in 0.026980 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 45
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
